@@ -1,6 +1,13 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import bmiData from './bmi.json';
+
+interface BMI {
+  id:Number;
+  category:String;
+  bmi:String;
+}
 
 @Component({
   selector: 'app-root',
@@ -10,5 +17,6 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'my-app';
+  title = 'BMI Calculator';
+  bmi:BMI[]=bmiData;
 }

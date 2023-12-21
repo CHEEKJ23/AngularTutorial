@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "category":"Underweight",
+        "bmi":"<18.5"
+
+    },
+
+    {
+        "id": 2,
+        "category":"Normal",
+        "bmi":"18.5-24.9"
+    },
+
+    {
+        "id": 3,
+        "category":"Overweight",
+        "bmi":"25-29.9"
+
+    },
+
+    {
+        "id": 4,
+        "category":"Obese",
+        "bmi":">30"
+
+    }
+]
